@@ -1,0 +1,6 @@
+@TrainMatePro_HostAddress = http://localhost:5078
+
+GET {{TrainMatePro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

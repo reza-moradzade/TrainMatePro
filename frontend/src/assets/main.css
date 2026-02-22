@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* تنظیمات Bootstrap برای RTL */
+.modal-header .btn-close {
+  margin: -0.5rem auto -0.5rem -0.5rem !important;
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
+.form-control {
+  text-align: right;
+}
+
+/* استایل‌های سفارشی */
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}

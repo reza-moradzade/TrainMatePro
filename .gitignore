@@ -1,0 +1,30 @@
+## .NET Core
+TrainMatePro/TrainMatePro/bin/
+TrainMatePro/TrainMatePro/obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userprefs
+
+## Visual Studio
+.vs/
+.vscode/
+
+## Logs
+logs/
+*.log
+
+## Environment variables
+.env
+.env.local
+.env.production
+
+## Node modules
+frontend/node_modules/
+**/node_modules/
+
+## Database
+*.db
+*.mdf
+*.ldf
